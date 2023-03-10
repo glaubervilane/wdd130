@@ -1,47 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
-    background-color: steelblue;
+    background-color: rgb(61, 102, 82);
     padding: 10px;
 }
-
 nav a {
     color: white;
-    padding: 10px;
     display: block;
-}
-
+    padding: 20px;
+    }
 h1 {
-    color: steelblue;
-}
-
+    color: rgb(61, 102, 82);
+}  
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(61, 102, 82);
     padding: 2px;
     box-shadow: 0 0 30px gray;
-  }
-
-p { 
+    float: right;
+}
+p {
     padding: 0;
 }
-
 aside {
     width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* why use rgba instead of hex here? */
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
     text-align: center;
 }
-
 aside img {
     width: 200px;
     height: auto;
 }
-
+aside h2 {
+    position: absolute; 
+    left: 130px;
+    color: #000
+}
 footer {
     margin-top: 1em;
-    border-top: 1px solid #000;
+    border-top: 1px solid rgb(61, 102, 82);
     text-align: center;
+}
+  /* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #b6c5be;
+    color: #000; 
 }
