@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-* {
-    font-family: 'Montserrat', sans-serif;
-}
+
 :root {
     --primary-color: #F7931D;
     --secondary-color: #189AB4;
@@ -21,9 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
-}
-.hero {
-    position: static;
 }
 nav {
     background-color: var(--nav-background-color);
@@ -59,15 +54,17 @@ nav a {
     height: auto;       
 }
 .hero h1 {
+    font-size: 5rem;
     position: absolute;
     top: 350px;
+    padding-left: 50%;
     width: 100%;
     margin: 0 auto;
-    background-color: rgba(32, 243, 251, 0.507);
+    background-color: rgba(57, 65, 65, 0.507);
 }
 .hero article p{
     position:absolute;
-    top: 400px;
+    top: 600px;
     left: 11px;
     margin: 1rem;
     border: 1px solid rgba(247, 230, 163, 0);
@@ -97,6 +94,6 @@ nav a {
 }
 .sociallinks img {
     float: right;
-    width: 10%;
+    width: 80%;
     height: 10%;
 }
