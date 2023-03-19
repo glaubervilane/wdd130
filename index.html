@@ -1,6 +1,6 @@
 <!-- February 28, 2023 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,9 @@
     <meta name="description" content="Glauber Marques webpage for course WWD130, it's a webpage with academic purposes.">
     <meta name="author" content="Glauber Marques">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -20,25 +23,36 @@
             <a href="https://www.facebook.com/glauberfmarques/" target="_blank">My Facebook</a>
         </nav>
     </header>
-    <main>
-        <h1>Glauber Marques | WDD 130</h1>
-        <img src="images/profilePicture.jpg" alt="Hello, my name is Glauber Marques" width="200">
-        <p>Hello! My name is Glauber Marques and I am from Joao Pessoa, Brazil, but I'm living in Calgary, Canada. 
-            I enjoy my life, my family, technology and everything that comes from that</p>
-        <ul class="box">
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/recife-brazil-temple?lang=eng" target="_blank">Recife Brazil Temple</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng" target="_blank">Sao Paulo Brazil Temple</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/calgary-alberta-temple?lang=eng" target="_blank">Calgary Alberta Temple</a></li>
-        </ul>
-    </main>
-    <aside class="box">
-        <h2>Alberta</h2>
-        <img src="images/Alberta.jpg" alt="Alberta landscape">
-        <p>Alberta is a province in the western Canada, part of praires. It is bordered by Saskatchewan to the east, Northwest Territories to the north, Idaho to the north, Montana (USA) to the south, 
+    <div class="grid">
+        <main class="grid">
+            <h1>Glauber Marques | WDD 130</h1>
+            <div class="profile">
+                <img src="images/profilePicture.jpg" alt="Hello, my name is Glauber Marques">
+                <p>Hello! My name is Glauber Marques and I am from Joao Pessoa, Brazil, but I'm living in Calgary, Canada. 
+                I enjoy my life, my family, technology and everything that comes from that. Technology is one of my 
+                passions, and for that reason, I'm a Highly motivated, and results-driven professional with experience 
+                in Fullstack development using C# and .NET CORE / .NET framework as well as JavaScript. Creative and 
+                proactive problem solver, organized and attentive to detail with outstanding time management skills. 
+                Excellent communication and interpersonal skills through the application of rapport with clients and 
+                partners in the negotiation process, knowledgeable in agile methodologies. An energetic team member who 
+                is task-focused and goal-oriented.</p>
+            </div>
+            <ul class="box">
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/recife-brazil-temple?lang=eng" target="_blank">Recife Brazil Temple</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng" target="_blank">Sao Paulo Brazil Temple</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/calgary-alberta-temple?lang=eng" target="_blank">Calgary Alberta Temple</a></li>
+            </ul>
+        </main>
+        <aside class="box">
+            <h2>Alberta</h2>
+            <img src="images/Alberta.jpg" alt="Alberta landscape">
+            <p>Alberta is a province in the western Canada, part of praires. It is bordered by Saskatchewan to the east, Northwest Territories to the north, Idaho to the north, Montana (USA) to the south, 
             and British Columbia to the west. It also touches a corner of Idaho (USA). The province Its landscape encompasses mountains, prairies, desert badlands and vast coniferous forests. It has 
             more than 600 lakes, and rich mineral deposits. In the west, the Canadian Rocky Mountain Parks have glaciers in the Columbia Icefields. The Waterton Glacier International Peace Park is a 
             biosphere reserve that straddles the southern border with the USA. 
-    </aside>
+            </p>
+        </aside>
+    </div>
     <footer>
         <p>©️2023 🌴 Glauber Marques 🌴 Calgary, Canada</p>
     </footer>

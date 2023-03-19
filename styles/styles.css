@@ -1,10 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap);
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
 nav {
-    background-color: rgb(61, 102, 82);
+    background-color: rgb(34, 32, 169);
     padding: 10px;
 }
 nav a {
@@ -12,43 +17,106 @@ nav a {
     display: block;
     padding: 20px;
 }
+
 h1 {
-    color: rgb(61, 102, 82);
-}  
+    color: rgb(34, 32, 169);
+    border-bottom: 2px solid rgb(34, 32, 169);
+}
+.profile {
+    overflow: auto;
+}
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid rgb(61, 102, 82);
+    border: 1px solid rgb(34, 32, 169);
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right;
+    float: left;
+    margin: 1.5rem 10px 1rem 1rem;
 }
+/*main img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}*/
 p {
+    margin: 1rem;
     padding: 0;
 }
+
 aside {
     width: 20em;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
     text-align: center;
+    position: relative;
 }
+
 aside img {
     width: 200px;
     height: auto;
 }
+
 aside h2 {
-    position: absolute; 
-    left: 130px;
-    color: #000
+    position: absolute;
+    top: 20px;
+    left: 120px;
 }
+
 footer {
     margin-top: 1em;
-    border-top: 1px solid rgb(61, 102, 82);
+    border-top: 1px solid #000;
     text-align: center;
 }
-  /* Class Selectors */
+
+/* Class Selectors */
+
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    background-color: #b6c5be;
-    color: #000; 
+    background-color: #ddd;
+    color: #000;
+}
+
+header.grid, footer.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgb(34, 32, 169);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
