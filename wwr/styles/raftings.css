@@ -34,7 +34,7 @@ nav {
     grid-column: 2/3;
     margin-right: 50px;
 }
-.nav-top a{
+.nav_top a{
     text-decoration: none;
     border-right: 1px solid black;
     border-left: 1px solid black;
@@ -96,12 +96,12 @@ h2 {
     display: grid;
     justify-items: center;
 }
-.history-contents {
+.history_contents {
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
     grid-gap: 10px;
 }
-.history-contents img {
+.history_contents img {
     width: 200px;
     padding-top: 20px;
 }
@@ -109,13 +109,13 @@ h2 {
     display: grid;
     justify-items: center;   
 }
-.adventure-pictures {
+.adventure_pictures {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: space-evenly;
     margin-left: -40px;
 }
-.adventure-pictures figure img {
+.adventure_pictures figure img {
     max-width: 150px;
     max-height: 200px;
 }
