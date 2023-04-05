@@ -181,6 +181,7 @@ div.desc {
     color: #888;
 }
 
+/*Styles of table*/
 table {
     font-family: var(--paragraph-font);
     border-collapse: collapse;
@@ -332,6 +333,8 @@ tr:hover {
 .feature_image:hover:before {
     opacity: 1;
 }
+
+/*Form styles*/
 form {
     font-family: var(--paragraph-font);
     display: flex;
