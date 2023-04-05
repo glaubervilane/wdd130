@@ -181,6 +181,31 @@ div.desc {
     color: #888;
 }
 
+table {
+    font-family: var(--paragraph-font);
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
 /* Reservations Section */
 .reservations {
     padding: 50px 0;
@@ -306,6 +331,40 @@ div.desc {
 
 .feature_image:hover:before {
     opacity: 1;
+}
+form {
+    font-family: var(--paragraph-font);
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 15px auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0062cc;
 }
 
 .adventure {
